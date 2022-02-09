@@ -1,0 +1,10 @@
+apiVersion: v1
+name: techtrends
+description: TechTrends deployment
+keywords:
+  - site
+  - TechTrends
+version: 1.0.0
+maintainers:
+  - name: wmastalerz
+    email: wmastalerz@tlen.pl
