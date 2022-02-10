@@ -30,4 +30,4 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64
           push: true
-          tags: wmastalerz/techtrends:latest, wmastalerz/techtrends:1.2.1
+          tags: wmastalerz/techtrends:latest, wmastalerz/techtrends:1.0.0
