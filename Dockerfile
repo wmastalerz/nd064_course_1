@@ -2,11 +2,11 @@ FROM python:3.8
 
 WORKDIR /usr/src/app
 
-COPY ./techtrends/requirements.txt ./
+COPY ./project/techtrends/requirements.txt ./
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY ./techtrends ./
+COPY ./project/techtrends ./
 
 RUN python init_db.py
 
